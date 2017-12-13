@@ -1,0 +1,9 @@
+development:
+  adapter: async
+
+test:
+  adapter: async
+
+production:
+  adapter: redis
+  url: redis://redistogo:6bbbbf726030df34efca49e4c119a7ec@soldierfish.redistogo.com:9018/
